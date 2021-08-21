@@ -40,5 +40,5 @@ for r in results:
     # draw the tag family on the image
     tagID = str(r.tag_id)
     cv2.putText(tag, tagID, (ptA[0], ptA[1] - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-    print("[INFO] tag family: {}".format(tagID))
+    print("[INFO] tag ID: {}".format(tagID))
 viewImage(tag)
